@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(135,206,250);
+  font-family: arial, monospace;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.tooltip {	
+    position: absolute;		
+    text-align: center;			  
+    width: 80px;					
+    height: auto;					
+    padding: 2px;				
+    font-size: 10px;	
+    font-weight: bold;
+    border: 0px;		
+    border-radius: 5px;
+}
+
+rect:hover{
+  stroke: black;
+  stroke-width: 0.9px;
+}
+
+.county:hover{
+  stroke: black;
+  stroke-width: 0.5px;
+} 
